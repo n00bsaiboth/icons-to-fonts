@@ -1,0 +1,10 @@
+packages:
+    graham-campbell/result-type: '1.1.x-dev:9d6c1d7ce69a3329936e603617e59ba205ab0a66'
+    joachim-n/composer-manifest: 'dev-master:b5ac65194179ccecbdb14e02f4cbfa82cc28fba7'
+    phpoption/phpoption: 'dev-master:e3fac8b24f56113f7cb96af14958c0dd16330f54'
+    symfony/deprecation-contracts: '3.0.x-dev:c30dd04b9a303689a26d7986f7cffce04203a107'
+    symfony/polyfill-ctype: '1.x-dev:a3cc8b044a6ea513310cbd48ef7333b384945638'
+    symfony/polyfill-mbstring: '1.x-dev:6d857f4d76bd4b343eac26d6b539585d2bc56493'
+    symfony/polyfill-php80: '1.x-dev:60328e362d4c2c802a54fcbf04f9d3fb892b4cf8'
+    symfony/yaml: '5.4.x-dev:a454d47278cc16a5db371fe73ae66a78a633371e'
+    vlucas/phpdotenv: 'dev-master:a59a13791077fe3d44f90e7133eb68e7d22eaff2'
