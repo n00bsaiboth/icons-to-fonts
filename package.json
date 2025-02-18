@@ -1,0 +1,38 @@
+{
+  "name": "icons-to-fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "https://openinnovations.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n00bsaiboth/icons-to-fonts"
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Jussi Jokinen",
+    "email": "jussi.jokinen@openinnovations.io",
+    "url": "https://openinnovations.io"
+  },
+  "contributors": [
+
+  ],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
