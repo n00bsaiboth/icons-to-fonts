@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "iconfont";
+    src:    url('../fonts/iconfont.woff2') format('woff2'),
+            url('../fonts/iconfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: "iconfont";
+    font-style: normal;
+    display: inline-block;
+}
+
+.icon-bluesky:before {
+    content: '\f101';
+    font-size: 32px;
+}

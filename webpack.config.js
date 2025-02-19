@@ -27,7 +27,22 @@ module.exports = {
                     'css-loader',
                     'sass-loader',
                 ]
-            }
+            },
+            {
+                test: /\.font\.js$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            url: false,
+                        }
+                    },
+                    {
+                        loader: 'webfonts-loader'
+                    }
+                ],
+            },
         ]
     },
     plugins: [
