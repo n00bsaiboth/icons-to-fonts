@@ -1,0 +1,27 @@
+name: icons-to-fonts
+recipe: lamp
+
+config:
+  webroot: web
+  php: '8.0'
+  composer_version: '2'
+  xdebug: true
+  config:
+    php: .vscode/php.ini
+
+services:
+  phpmyadmin:
+    type: phpmyadmin
+    
+  appserver:
+    overrides:
+      environment:
+        ENVIRONMENT: "local"
+        PHP_IDE_CONFIG: "serverName=appserver"  
+
+env_file:
+  - .vscode/lando.env
+
+# Lando version
+version: v3.23.26
+
