@@ -2,4 +2,8 @@
 
 import '../scss/style.scss';
 
-console.log(`Hello from webpack!`);
+const helloWebpack = (name) => {
+    console.log(`Hello from ${name}!`);
+}
+
+helloWebpack('Webpack and Babel');
