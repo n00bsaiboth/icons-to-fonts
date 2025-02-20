@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
     'files': [
         './src/icons/*.svg'
@@ -7,5 +9,6 @@ module.exports = {
     'baseSelector': '.iconfont',
     'types': ['eot', 'woff2', 'woff', 'ttf', 'svg'],
     'fileName': '[fontname].[ext]',
-    'dest': '../../../src/fonts',
+    'dest': '../../../src/fonts/iconfont/',
+    // 'dest': path.resolve(__dirname, 'src/fonts'),
 };
