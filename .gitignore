@@ -9,6 +9,6 @@ web/build
 web/build/css
 web/build/js
 !web/build
-!web/build/fonts
-!web/build/fonts/iconfont.woff
-!web/build/fonts/iconfont.woff2
+# !web/build/fonts
+# !web/build/fonts/iconfont.woff
+# !web/build/fonts/iconfont.woff2
