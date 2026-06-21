@@ -12,3 +12,4 @@ web/build/js
 # !web/build/fonts
 # !web/build/fonts/iconfont.woff
 # !web/build/fonts/iconfont.woff2
+src/icons/
